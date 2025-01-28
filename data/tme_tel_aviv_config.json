@@ -1,0 +1,136 @@
+{
+    "beta_cost": -0.0432,
+    "constants": {
+      "cons_walk": 1.75,
+      "cons_bike": -2.2,
+      "cons_drive1": 1.25,
+      "cons_share2": 1.75,
+      "cons_share3": 1.3,
+      "cons_PT": -2.71,
+      "cons_PB": -0.75,
+      "cons_motor": 3.2,
+      "cons_MRT": 0
+    },
+    "time_coefficients": {
+      "beta_tt_walk": -4.884,
+      "beta_tt_bike": -4.188,
+      "beta_tt_drive1": -2.844,
+      "beta_tt_share2": -3.594,
+      "beta_tt_share3": -3.702,
+      "beta_tt_PT": -0.2616,
+      "beta_tt_motor": -4.188,
+      "beta_tt_MRT": -0.2616
+    },
+    "central_coefficients": {
+      "beta_central_walk": 2.49,
+      "beta_central_bike": 1.5,
+      "beta_central_drive1": 0,
+      "beta_central_share2": 0,
+      "beta_central_share3": 0,
+      "beta_central_PT": 2.12,
+      "beta_central_motor": 0,
+      "beta_central_MRT": 2.12
+    },
+    "parttime_coefficients": {
+      "beta_parttime_walk": 0,
+      "beta_parttime_bike": 0,
+      "beta_parttime_drive1": 0,
+      "beta_parttime_share2": 0.522,
+      "beta_parttime_share3": -0.336,
+      "beta_parttime_PT": -0.729,
+      "beta_parttime_motor": 0,
+      "beta_parttime_MRT": -0.729
+    },
+    "preschool_coefficients": {
+      "beta_preschool_walk": 0.617,
+      "beta_preschool_bike": 0,
+      "beta_preschool_drive1": 0,
+      "beta_preschool_share2": 1.28,
+      "beta_preschool_share3": 1.4,
+      "beta_preschool_PT": -0.736,
+      "beta_preschool_motor": 0,
+      "beta_preschool_MRT": -0.736
+    },
+    "undergraduate_coefficients": {
+      "beta_undergraduate_walk": 0,
+      "beta_undergraduate_bike": 1.49,
+      "beta_undergraduate_drive1": 0,
+      "beta_undergraduate_share2": -0.457,
+      "beta_undergraduate_share3": -1.96,
+      "beta_undergraduate_PT": 0,
+      "beta_undergraduate_motor": 0,
+      "beta_undergraduate_MRT": 0
+    },
+    "female_coefficients": {
+      "beta_female_walk": 0,
+      "beta_female_bike": -1.27,
+      "beta_female_drive1": 0,
+      "beta_female_share2": 0,
+      "beta_female_share3": 0,
+      "beta_female_PT": -0.314,
+      "beta_female_motor": 0,
+      "beta_female_MRT": -0.314
+    },
+    "lic_coefficients": {
+      "beta_LIC_walk": 1.32,
+      "beta_LIC_bike": 0,
+      "beta_LIC_drive1": 0,
+      "beta_LIC_share2": 1.46,
+      "beta_LIC_share3": 0,
+      "beta_LIC_PT": 0,
+      "beta_LIC_motor": 0,
+      "beta_LIC_MRT": 0
+    },
+    "trans_coefficients": {
+      "beta_TRANS_walk": 1.26,
+      "beta_TRANS_bike": 0,
+      "beta_TRANS_drive1": 0,
+      "beta_TRANS_share2": 0,
+      "beta_TRANS_share3": 0,
+      "beta_TRANS_PT": 1.2,
+      "beta_TRANS_motor": 0,
+      "beta_TRANS_MRT": 1.2
+    },
+    "zerocar_coefficients": {
+      "beta_zerocar_walk": 0,
+      "beta_zerocar_bike": 1.05,
+      "beta_zerocar_drive1": 0,
+      "beta_zerocar_share2": -1.2,
+      "beta_zerocar_share3": 0,
+      "beta_zerocar_PT": 0.761,
+      "beta_zerocar_motor": 0,
+      "beta_zerocar_MRT": 0.761
+    },
+    "onecar_coefficients": {
+      "beta_onecar_walk": 1.13,
+      "beta_onecar_bike": 1.4,
+      "beta_onecar_drive1": 0,
+      "beta_onecar_share2": 0.272,
+      "beta_onecar_share3": 0.843,
+      "beta_onecar_PT": 0.6,
+      "beta_onecar_motor": 0,
+      "beta_onecar_MRT": 0.6
+
+    },
+    "twocar_coefficients": {
+      "beta_twocar_walk": 0.36,
+      "beta_twocar_bike": 0.767,
+      "beta_twocar_drive1": 0,
+      "beta_twocar_share2": 0.459,
+      "beta_twocar_share3": 1.08,
+      "beta_twocar_PT": 0.376,
+      "beta_twocar_motor": 0,
+      "beta_twocar_MRT": 0.376
+    },
+    "threepluscar_coefficients": {
+      "beta_threepluscar_walk": 0,
+      "beta_threepluscar_bike": 0,
+      "beta_threepluscar_drive1": 0,
+      "beta_threepluscar_share2": 0,
+      "beta_threepluscar_share3": 0,
+      "beta_threepluscar_PT": 0,
+      "beta_threepluscar_motor": 0,
+      "beta_threepluscar_MRT": 0
+    }
+  }
+  
