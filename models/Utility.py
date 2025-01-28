@@ -6,12 +6,17 @@ class Utility:
         self.varibales=varibales
         self.betas=betas
 
+    def get_betas_list(self):
+        return self.betas
+    
+
+
+
 
 class Beta:
     def __init__(self, beta, value):
         self.beta=beta
         self.value=value
-
 
 
 

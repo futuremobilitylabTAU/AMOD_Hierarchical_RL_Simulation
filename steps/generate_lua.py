@@ -1,17 +1,19 @@
 
-from models.Lua import TME,TMW,TMDS
+from models.TME import TME
 
+def generate_defult_lua_by_modes(model_type, model):
 
-def generate_defult_lua_by_modes(mode_list,model_type, file):
-
-    
+ 
     if model_type == "tour_mode_models":
-        pass
-        
+
+        if model=='tme':
+            tme =TME() 
+            tme.load_beta_variables('./data/tme_tel_aviv_config.json')
+            tme.generate_lua('./data/new_tme_tel_aviv.lua')
     elif model_type == "tour_mode_destantion_models":
-        header = f"-- Lua file for Destination Model: {file}\n"
+        pass
     elif model_type == "intemidiate_stops":
-        header = f"-- Lua file for Intermediate Stops Model: {file}\n"
+        pass
 
     pass
 
@@ -35,6 +37,10 @@ def generate_lua_files():
     
     for model_type, models in models_config.items():
         for model in models:
-            generate_defult_lua_by_modes(mode_list, model_type, model)
+            generate_defult_lua_by_modes(model_type, model)
 
+
+        
+
+    
     print("Step 1.2: Generating New Lua Files...")
